@@ -40,6 +40,26 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        left {
+            bindings = <&kt LEFT>;
+            key-positions = <10 17>;
+        };
+
+        Down {
+            bindings = <&kp DOWN>;
+            key-positions = <10 18>;
+        };
+
+        Up {
+            bindings = <&kp UP>;
+            key-positions = <10 19>;
+        };
+
+        Right {
+            bindings = <&kp RIGHT>;
+            key-positions = <10 20>;
+        };
     };
 
     macros {
