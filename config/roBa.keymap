@@ -35,11 +35,6 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <24 25>;
         };
-
-        boot {
-            bindings = <&bootloader>;
-            key-positions = <15 27 16 28>;
-        };
     };
 
     macros {
@@ -85,10 +80,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC  &kp LG(LEFT)          &kp LG(UP)            &kp LG(RIGHT)          &trans                      &trans  &kp LG(LBKT)  &kp LC(UP)  &kp LG(RBKT)  &kp LG(LS(LC(NUMBER_4)))
-&mo 3    &kp LG(N1)            &kp LG(N2)            &kp LG(N3)             &trans  &trans      &trans  &trans  &mkp MB1      &mo 5       &mkp MB2      &trans
-&trans   &kp LS(LA(LC(LEFT)))  &kp LS(LA(LC(DOWN)))  &kp LS(LA(LC(RIGHT)))  &trans  &trans      &trans  &trans  &trans        &trans      &trans        &trans
-&trans   &trans                &trans                &trans                 &trans  &trans      &trans  &trans                                          &trans
+&kp ESC      &kp LG(LEFT)          &kp LG(UP)            &kp LG(RIGHT)          &trans                      &trans  &kp LG(LBKT)  &kp LC(UP)  &kp LG(RBKT)  &kp LG(LS(LC(NUMBER_4)))
+&mo 3        &kp LG(N1)            &kp LG(N2)            &kp LG(N3)             &trans  &trans      &trans  &trans  &mkp MB1      &mo 5       &mkp MB2      &trans
+&trans       &kp LS(LA(LC(LEFT)))  &kp LS(LA(LC(DOWN)))  &kp LS(LA(LC(RIGHT)))  &trans  &trans      &trans  &trans  &trans        &trans      &trans        &trans
+&bootloader  &trans                &trans                &trans                 &trans  &trans      &trans  &trans                                          &bootloader
             >;
         };
 
