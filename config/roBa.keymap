@@ -18,7 +18,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <11 10>;
         };
 
         double_quotation {
@@ -28,17 +28,12 @@
 
         LANG_1 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <14 15>;
+            key-positions = <12 13>;
         };
 
         LANG_2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <26 27>;
-        };
-
-        Allow {
-            bindings = <&mo 3>;
-            key-positions = <10 11>;
+            key-positions = <24 25>;
         };
     };
 
@@ -86,7 +81,7 @@
         FUNCTION {
             bindings = <
 &kp ESC  &kp LG(LEFT)          &kp LG(UP)            &kp LG(RIGHT)          &trans                      &trans  &kp LG(LBKT)  &kp LC(UP)  &kp LG(RBKT)  &kp LG(LS(LC(NUMBER_4)))
-&kp TAB  &kp LG(N1)            &kp LG(N2)            &kp LG(N3)             &trans  &trans      &trans  &trans  &mkp MB1      &mo 4       &mkp MB2      &trans
+&mo 3    &kp LG(N1)            &kp LG(N2)            &kp LG(N3)             &trans  &trans      &trans  &trans  &mkp MB1      &mo 5       &mkp MB2      &trans
 &trans   &kp LS(LA(LC(LEFT)))  &kp LS(LA(LC(DOWN)))  &kp LS(LA(LC(RIGHT)))  &trans  &trans      &trans  &trans  &trans        &trans      &trans        &trans
 &trans   &trans                &trans                &trans                 &trans  &trans      &trans  &trans                                          &trans
             >;
