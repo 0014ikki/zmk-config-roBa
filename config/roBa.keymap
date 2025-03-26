@@ -35,6 +35,11 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <24 25>;
         };
+
+        boot {
+            bindings = <&bootloader>;
+            key-positions = <15 27 16 28>;
+        };
     };
 
     macros {
