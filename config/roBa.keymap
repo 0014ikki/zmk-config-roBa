@@ -8,7 +8,7 @@
 #define NUM 6
 
 &mt {
-    flavor = "balanced";
+    flavor = "hold-preferred";
     quick-tap-ms = <0>;
 };
 
@@ -60,7 +60,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LEFT_SHIFT>, <&mt LANGUAGE_1 LANGUAGE_2>;
+            bindings = <&mt LEFT_SHIFT LANGUAGE_1>, <&kp LANGUAGE_2>;
         };
     };
 
