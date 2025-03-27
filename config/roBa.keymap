@@ -26,22 +26,6 @@
             bindings = <&kp SEMI>;
             key-positions = <20 21>;
         };
-
-        LANG_1 {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <12 13>;
-        };
-
-        LANG_2 {
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <24 25>;
-        };
-
-        Left {
-            bindings = <&kp LEFT>;
-            key-positions = <10 17>;
-            timeout-ms = <10000>;
-        };
     };
 
     macros {
@@ -67,7 +51,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LEFT_SHIFT>, <&mt LANGUAGE_2 LANGUAGE_1>;
+            bindings = <&mt LEFT_SHIFT LANGUAGE_1>, <&kp LANGUAGE_2>;
         };
     };
 
