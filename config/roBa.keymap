@@ -36,6 +36,12 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <24 25>;
         };
+
+        Left {
+            bindings = <&kp LEFT>;
+            key-positions = <10 17>;
+            timeout-ms = <10000>;
+        };
     };
 
     macros {
