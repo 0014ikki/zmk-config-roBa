@@ -36,25 +36,25 @@
             label = "TO_LAYER_0";
         };
 
-        square_brackets: new_macro {
+        square_brackets: square_brackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LBKT &kp RBKT &kp LEFT>;
-            label = "NEW_MACRO";
+            label = "square_brackets";
         };
 
-        parentheses: new_macro {
+        parentheses: parentheses {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LPAR &kp RPAR &kp LEFT>;
-            label = "NEW_MACRO";
+            label = "parentheses";
         };
 
-        curly_brackets: new_macro {
+        curly_brackets: curly_brackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
-            label = "NEW_MACRO";
+            label = "curly_brackets";
         };
     };
 
