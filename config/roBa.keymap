@@ -136,12 +136,12 @@
             >;
         };
 
-        ARROW {
+        CONTROL {
             bindings = <
-&trans  &trans  &kp LC(E)  &trans  &trans                      &trans    &trans    &trans  &trans     &trans
-&trans  &trans  &trans     &trans  &trans  &trans      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &trans  &trans     &trans  &trans  &trans      &trans  &trans    &trans    &trans  &trans     &trans
-&trans  &trans  &trans     &trans  &trans  &trans      &trans  &trans                                 &trans
+&trans  &trans  &kp LC(E)  &trans     &trans                      &trans    &trans    &trans  &trans     &trans
+&trans  &trans  &trans     &trans     &trans  &trans      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans      &trans  &trans    &trans    &trans  &trans     &trans
+&trans  &trans  &trans     &trans     &trans  &trans      &trans  &trans                                 &trans
             >;
         };
 
