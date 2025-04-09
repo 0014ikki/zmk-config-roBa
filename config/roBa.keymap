@@ -129,10 +129,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC  &kp LG(LEFT)          &kp LG(UP)            &kp LG(RIGHT)          &trans                                      &trans  &kp LG(LBKT)  &kp LC(UP)  &kp LG(RBKT)  &kp LG(LS(LC(NUMBER_4)))
-&kp TAB  &kp LG(N1)            &kp LG(N2)            &kp LG(N3)             &trans          &trans              &trans  &trans  &mkp MB1      &mo 5       &mkp MB2      &trans
-&trans   &kp LS(LA(LC(LEFT)))  &kp LS(LA(LC(DOWN)))  &kp LS(LA(LC(RIGHT)))  &trans          &trans              &trans  &trans  &trans        &trans      &trans        &trans
-&td_mt   &trans                &trans                &trans                 &kp LANGUAGE_1  &kp LANGUAGE_2      &trans  &trans                                          &td_mt
+&kp ESC  &kp LG(LEFT)          &kp LG(UP)            &kp LG(RIGHT)          &trans                              &trans          &kp LG(LBKT)  &kp LC(UP)  &kp LG(RBKT)  &kp LG(LS(LC(NUMBER_4)))
+&kp TAB  &kp LG(N1)            &kp LG(N2)            &kp LG(N3)             &trans  &trans      &trans          &trans          &mkp MB1      &mo 5       &mkp MB2      &trans
+&trans   &kp LS(LA(LC(LEFT)))  &kp LS(LA(LC(DOWN)))  &kp LS(LA(LC(RIGHT)))  &trans  &trans      &trans          &trans          &trans        &trans      &trans        &trans
+&td_mt   &trans                &trans                &trans                 &trans  &trans      &kp LANGUAGE_1  &kp LANGUAGE_2                                          &td_mt
             >;
         };
 
