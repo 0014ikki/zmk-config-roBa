@@ -32,12 +32,12 @@
             key-positions = <31 32>;
         };
 
-        layer2-L {
+        layer2_L {
             bindings = <&mo 2>;
             key-positions = <12 13>;
         };
 
-        layer2-R {
+        layer2_R {
             bindings = <&mo 2>;
             key-positions = <18 19>;
         };
