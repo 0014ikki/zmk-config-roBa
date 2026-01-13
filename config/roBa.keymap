@@ -46,6 +46,16 @@
             bindings = <&bootloader>;
             key-positions = <16 28>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <12 13>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
