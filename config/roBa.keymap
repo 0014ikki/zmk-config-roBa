@@ -28,12 +28,12 @@
 
         boot_L {
             bindings = <&bootloader>;
-            key-positions = <15 27>;
+            key-positions = <0 34>;
         };
 
         boot_R {
             bindings = <&bootloader>;
-            key-positions = <16 28>;
+            key-positions = <9 42>;
         };
 
         esc {
