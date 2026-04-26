@@ -11,12 +11,12 @@
     combos {
         compatible = "zmk,combos";
 
-        LCLK {
+        L_CLK {
             bindings = <&mkp LCLK>;
             key-positions = <18 19>;
         };
 
-        RCKL {
+        R_CKL {
             bindings = <&mkp RCLK>;
             key-positions = <19 20>;
         };
