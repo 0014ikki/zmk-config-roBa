@@ -11,24 +11,19 @@
     combos {
         compatible = "zmk,combos";
 
-        BT0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <7 6>;
+        LCLK {
+            bindings = <&mkp LCLK>;
+            key-positions = <18 19>;
         };
 
-        BT1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <19 18>;
+        RCKL {
+            bindings = <&mkp RCLK>;
+            key-positions = <19 20>;
         };
 
-        BT2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <31 30>;
-        };
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <12 13>;
+        SCRL {
+            bindings = <&mo 5>;
+            key-positions = <18 19 20>;
         };
     };
 
@@ -74,6 +69,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "MT_D";
             bindings = <&kp>, <&kp>;
+
             #binding-cells = <2>;
             flavor = "balanced";
             quick-tap-ms = <175>;
@@ -87,10 +83,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W         &kp E             &kp R             &kp T                                                                  &kp Y          &kp U              &kp I              &kp O    &kp P
-&lt 3 A  &kp S         &mt_d LEFT_ALT D  &mt_d LEFT_GUI F  &mt_d LEFT_CONTROL G  &kp LANGUAGE_1            &Parentheses           &mt_d RCTRL H  &mt_d RIGHT_WIN J  &mt_d RIGHT_ALT K  &kp L    &lt 3 MINUS
-&kp Z    &kp X         &kp C             &kp V             &kp B                 &kp LANGUAGE_2            &Brackets              &kp N          &kp M              &kp COMMA          &kp DOT  &kp SEMICOLON
-&kp ESC  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2             &kp BACKSPACE         &mt_d LEFT_SHIFT TAB      &mt RIGHT_SHIFT SPACE  &lt 1 ENTER                                                   &lt 4 SLASH
+&kp Q    &kp W         &kp E             &kp R             &kp T                                                              &kp Y              &kp U              &kp I          &kp O    &kp P
+&lt 3 A  &kp S         &mt_d LCTRL D     &mt_d LEFT_GUI F  &mt_d LEFT_ALT G  &kp LANGUAGE_1            &Parentheses           &mt_d RIGHT_ALT H  &mt_d RIGHT_WIN J  &mt_d RCTRL K  &kp L    &lt 3 MINUS
+&kp Z    &kp X         &kp C             &kp V             &kp B             &kp LANGUAGE_2            &Brackets              &kp N              &kp M              &kp COMMA      &kp DOT  &kp SEMICOLON
+&kp ESC  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2             &kp BACKSPACE     &mt_d LEFT_SHIFT TAB      &mt RIGHT_SHIFT SPACE  &lt 1 ENTER                                                   &lt 4 SLASH
             >;
         };
 
