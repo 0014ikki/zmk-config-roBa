@@ -110,10 +110,10 @@
 
         CONTROL {
             bindings = <
-&trans       &trans  &trans  &trans  &trans                      &trans    &trans    &trans  &trans     &trans
-&trans       &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans  &trans     &trans
-&bootloader  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                 &bootloader
+&trans       &trans  &trans  &trans  &trans                      &kp RG(C)  &trans    &trans  &trans     &kp RG(V)
+&trans       &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans    &trans  &trans     &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &bootloader
             >;
         };
 
